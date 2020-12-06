@@ -8,18 +8,24 @@ These are for testing and reference only at this point. They contain a known exp
 
 This is a deployment on Ropsten for testing. Not the final version.
 
-BentoBox.sol - 0xfb4Bd543122c9f5784e6F539FcD68272C03E6195  
-LendingPair.sol \(master\) - 0x5546E69924bE96C5209b7a075B8a053060d95E0F  
+BentoBox.sol - 0x066b83CE269aa9851704d30Ce7e838a8B772b340  
+LendingPair.sol \(master\) - 0x2bc401e64Be212E435339872208E7b07F5eB3Eb6  
 SushiSwapSwapper.sol - 0xc870551cbfE40D7Bb272273D156123E18924Bc68  
 PeggedOracle.sol - 0xb5C8A2d1C8d393Dace7b3C1D98f35d645A1cD1fc  
 CompoundOracle.sol - 0xf1EFAf821B7FE3CCdFA1dC2b7c553B08BC53d707  
+SimpleSLPTWAP0Oracle - 0xFDf9eECBC041fa126290108b86527dBA7c8eFC3e  
+SimpleSLPTWAP1Oracle - 0xAcf73db053bA1a1DF51bC3BC0BfcA6C2ada5cFeC  
 BentoHelper.sol - 0x0a503755021447B82037292EBc38d63c2FfBfEf7  
   
-WETH9 &gt; SUSHI \(PeggedOracle\) LendingPair - 0x5F9A19B1a8CEb48570A4EF7D7290Fa927b598Eaa
+WETH &gt; SUSHI \(PeggedOracle\) LendingPair - 0x5F9A19B1a8CEb48570A4EF7D7290Fa927b598Eaa
 
-WETH9 - 0xcBBDe19C1a79c18F07576792E96a912EAb8C4060  
+WETH - 0xc778417E063141139Fce010982780140Aa0cD5Ab  
+SUSHI - 0x81DB9C598b3ebbdC92426422fc0A1d06E77195ec  
 UniswapV2 Factory - 0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f  
-UniswapAnchoredView - 0xBEf4E076A995c784be6094a432b9CA99b7431A3f  
+UniswapV2 ETH-SUSHI - 0x47e1ce10065636AA989c4BFD19b9ac695785B7f1  
+UniswapAnchoredView - 0xBEf4E076A995c784be6094a432b9CA99b7431A3f
+
+  
   
 
 
