@@ -8,8 +8,8 @@ These are for testing and reference only at this point. They contain a known exp
 
 This is a deployment on Ropsten for testing. Not the final version.
 
-BentoBox.sol - 0x42192Cc25e0feb6debbd5fB32180Ee706c80F322  
-LendingPair.sol \(master\) - 0xDaE20Fa3487e3Fe47dE1e7EA973FC42B6cfe4737  
+BentoBox.sol - 0xfb4Bd543122c9f5784e6F539FcD68272C03E6195  
+LendingPair.sol \(master\) - 0x5546E69924bE96C5209b7a075B8a053060d95E0F  
 SushiSwapSwapper.sol - 0xc870551cbfE40D7Bb272273D156123E18924Bc68  
 PeggedOracle.sol - 0xb5C8A2d1C8d393Dace7b3C1D98f35d645A1cD1fc  
 CompoundOracle.sol - 0xf1EFAf821B7FE3CCdFA1dC2b7c553B08BC53d707  
