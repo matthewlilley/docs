@@ -4,6 +4,21 @@
 
 These are for testing and reference only at this point. They contain a known exploit left in intentionally to be found during audit.
 
+#### Mainnet\(test\)
+
+This is a deployment on mainnet for testing. Not the final version.
+
+BentoBox.sol - 0xb85d305798F3D68D1c0903a89d6070BbD8d27da4  
+LendingPair.sol \(master\) - 0xFFC7BDA4925b64dE974769Ba08679b640979743B  
+SushiSwapSwapper.sol - 0xB14C3C7F0D0529E5801D6d2160B1e1d33e6Cf3b0  
+PeggedOracle.sol - 0x54A3451dD6C33d2D0510E72EfAECEB015b13B042  
+CompoundOracle.sol - 0x748AA7f4CeBD01FcE7063bF5625178A2aa4260ab  
+ChainlinkOracle.sol - 0xc52DEB5BCEe7e607204299840dC3c028144C744  
+SimpleSLPTWAP0Oracle - 0x211FCE75A29AB078410Ed8B6A2EBCe9465Ec7B82  
+SimpleSLPTWAP1Oracle - 0x90f2406DfE07f41f5d4777D632C8034adDEb7c11  
+CompositeOracle.sol - 0xD001b85046984722868e79435aF678c374056DB3  
+BentoHelper.sol - 0x923686F6539F16f83681459863ce1152A404247A
+
 #### Ropsten
 
 This is a deployment on Ropsten for testing. Not the final version.
