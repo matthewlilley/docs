@@ -30,5 +30,11 @@ The LendingPair contract is actually designed to minimize TVL and maximize fees 
 
 ## Functions
 
+## Security
+
+The SushiSwapOracle can be pointed at any address. This could be a SushiSwap pair, a Uniswap pair or a malicious contract. Any UI should therefore verify that the oracle is indeed either a SushiSwap or Uniswap pair.
+
+
+
 
 
