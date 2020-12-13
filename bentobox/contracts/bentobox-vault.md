@@ -54,15 +54,11 @@ There are several versions of the transfer function transferring either denoted 
 
 After depositing directly into the BentoBox, you can skim the funds into a BentoBox account in the **same** transaction.
 
-### Rebasing Functions
-
-To support rebasing tokens, the token or team needs to call `sync` on the BentoBox for the token in the same transaction that the rebase happens. When a token support rebasing in BentoBox, all tokens in the BentoBox are rebased. So this works for **all** lendingpairs for that token as well as any other protocols that use this token through BentoBox.
-
-### Flashloan Functions
-
-All assets in the BentoBox can be used for flashloans for a fee of 0.05%. This fee will directly benefit the owners of the funds in the BentoBox. To use flashloans, implement the `IFlashloan` interface and call `flashloan` or `flashloanMultiple.`
-
 ### Batch Function
 
 The batch function allows for executing multiple actions on the BentoBox contract in a single transaction.
+
+## Security
+
+It is possible to deposit tokens for any EOA address or any contract that doesn't have a `transferFrom` function and a fallback function that always returns `true`. The only way to abuse this would be to know the contract address of a token before the contract is created. This can be detected by comparing the `balanceOf` the BentoBox for a token with the `totalSupply(token)` in the BentoBox.
 
